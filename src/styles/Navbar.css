@@ -1,0 +1,8 @@
+nav{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    justify-content: center;
+    background-color: aquamarine;
+    font-size: large;
+}
