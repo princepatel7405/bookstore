@@ -53,6 +53,7 @@ const Home = () => {
           arr.map((e) => {
             return (
               <BookCard
+                id={e._id}
                 price={e.price}
                 name={e.name}
                 author={e.author}
