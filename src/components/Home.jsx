@@ -26,7 +26,7 @@ const Home = () => {
   const filterData=async(e)=>{
     console.log(e.target.value);
     try {
-        let res=await fetch(`http://localhost:8080/book/filter/?category=${e.target.value}`)
+        let res=await fetch(`https://drab-gold-mite-cuff.cyclic.app/book/filter?category=${e.target.value}`)
         res=await res.json()
         console.log(res);
     } catch (error) {
