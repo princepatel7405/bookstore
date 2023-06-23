@@ -8,7 +8,7 @@ const SingleBook = () => {
     console.log(id);
     let getData=async()=>{
         try {
-            let res=await fetch(`http://localhost:8080/book/${id}`)
+            let res=await fetch(`https://drab-gold-mite-cuff.cyclic.app/book/${id}`)
             res=await res.json()
             console.log(res);
             setData(res.data)

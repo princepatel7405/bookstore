@@ -19,7 +19,7 @@ const Home = () => {
     console.log(e.target.value);
     setText(e.target.value)
         try {
-            let res=await fetch(`http://localhost:8080/getbook?name=${text}`)
+            let res=await fetch(`https://drab-gold-mite-cuff.cyclic.app/getbook?name=${text}`)
              res=await res.json()
              console.log(res);
              setArr(res.data)

@@ -7,7 +7,7 @@ export const DataState = ({children})=>{
          let [data,setData]=useState([])
          const dataFetch = async() => {
              try {
-                 let res=await fetch("http://localhost:8080/book")
+                 let res=await fetch("https://drab-gold-mite-cuff.cyclic.app/book")
                      res=await res.json()
                      setData(res.data)
              } catch (error) {
