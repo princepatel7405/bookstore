@@ -27,7 +27,7 @@ const SingleBook = () => {
             <Image src={data.image}/>
             <Text fontSize={"xx-large"} ><b>Author</b>:{data.author}</Text>
             <Text fontSize={"xx-large"} ><b>Type</b>:{data.category}</Text>
-            <Text fontSize={"xx-large"} ><b>Price</b>:{data.price}</Text>
+            <Text fontSize={"xx-large"} ><b>Price</b>:₹{data.price}</Text>
             <Text fontSize={"larger"} ><b>About</b>:{data.description}</Text>
     </div>
   )

@@ -25,7 +25,6 @@ const Login = () => {
         console.log(res);
         localStorage.setItem("token", res.token);
       })
-
       .catch((err) => console.log(err));
     alert("You have successfully Logged in");
     navigate("/")
